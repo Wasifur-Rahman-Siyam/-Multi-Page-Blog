@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    width: 100vw;
+    min-height: 100vh;
+    font-family:  'Open Sans', sans-serif;
+}
+
+
+.container{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 26px 10px;
+}
+
+p{
+    font-size: 16px;
+    color: #000;
+    margin: 10px 0px;
+}
+a{
+    color: #000;
+}
+/*nav design starts*/
+
+nav{
+    width: 100%;
+    background-color: #EAEAEA;
+    color:#2E333E;
+   }
+
+.nav-container{
+    display: flex;
+    align-items:center;
+}
+
+.brand-logo{
+    width: 170px;
+    margin-right: 5px;
+}
+
+.brand-logo img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nav-item-container{
+    margin-left: auto;
+    display: flex;
+}
+
+.nav-item{
+    margin-left: 22px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.nav-item::after{
+    content: '';
+    position: absolute;
+    background-color: #0066F9;
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-item:hover:after, .nav-item.active:after{
+    width: 100%;
+}
+
+.nav-item a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2E333E;
+}
+
+.nav-button{
+    margin-left: 22px;
+}
+
+.nav-button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0066F9;
+    padding:  10px 20px;
+    border-radius: 2px;
+}
+/*nav design ends*/
+
+
+/* Main section starts */
+
+/* Main section ends */
+
+
+/* Footer section starts */
+
+footer{
+    margin-top: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icons i{
+font-size: 50px;
+margin-right: 20px;
+color:#0066F9;
+}
+
+
+/* Footer  section ends */
