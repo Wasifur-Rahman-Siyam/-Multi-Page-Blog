@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Home Page</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -13,10 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Quicksand:wght@300;400;500;600&family=Roboto:wght@100;500&family=Smooch+Sans:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
 
-    <script src="https://kit.fontawesome.com/45f49eb8bc.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/45f49eb8bc.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Top nav bar -->
@@ -27,44 +30,88 @@
             <img src="img/logo.svg" alt="brand logo" />
           </a>
         </div>
-        
-            <div class="nav-item-container">
-                <div class="nav-item active">
-                    <a href="index.html">Home</a>
-                </div>
-                <div class="nav-item">
-                    <a href="index.html">About</a>
-                </div>
-                <div class="nav-item">
-                    <a href="">Blog</a>
-                </div>
-                <div class="nav-item">
-                    <a href="">Contact</a>
-                </div>
-                <div class="nav-button">
-                    <a href="#">Button</a>
-                </div>
+
+        <div class="nav-item-container">
+          <div class="nav-item active">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="nav-item">
+            <a href="about.html">About</a>
+          </div>
+          <div class="nav-item">
+            <a href="blog.html">Blog</a>
+          </div>
+          <div class="nav-item">
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="nav-button">
+            <a href="#">Button</a>
+          </div>
         </div>
       </div>
     </nav>
 
     <!-- Main content area -->
-    <main class="container">
-    </main>
+    <div class="container">
+      <main class="main-container">
+        <h1>Gatsby multi-language starter</h1>
+        <p>
+          Internationalization / i18n without third party plugins or packages for
+          Posts and Pages. Different URLs dependending on the language. Focused on
+          SEO, PWA, Image Optimization, Styled Components and more. This starter
+          is also integrate with Netlify CMS to manage all pages, posts and
+          images.
+        </p>
+        <hr style="margin: 2rem 0px" />
+        <h2><strong>Latest posts</strong></h2>
+        <div class="blog-cards">
+          <div class="blog-card-item">
+            <div class="card-image">
+              <img src="https://picsum.photos/500" alt="blog image" />
+            </div>
+            <div class="text-container">
+              <span>Gatsby</span>
+              <p class="time"><time >15/10/2019 • 1 min to read</time></p>
+              <h1>Adding menu items</h1>
+              <p>Add menu items in GraphQL to create a dynamic menu</p>
+            </div>
+          </div>
+  
+          <div class="blog-card-item">
+            <div class="card-image">
+              <img src="https://picsum.photos/600" alt="blog image" />
+            </div>
+            <div class="text-container">
+              <span>Gatsby</span>
+              <p class="time"><time >15/10/2019 • 1 min to read</time></p>
+              <h1>Adding menu items</h1>
+              <p>See how is super easy to add new posts and pages in this project</p>
+            </div>
+          </div>
+        </div>
+        <p><a href="#">All posts</a></p>
+      </main>
+    </div>
+
 
     <!-- Main footer -->
     <footer>
       <div class="container footer">
         <div class="icons">
-          <a href="https://github.com/" target="blank"><i class="fa-brands fa-github"></i></a>
-          <a href="https://twitter.com/" target="blank"><i class="fa-brands fa-twitter"></i></a> 
+          <a href="https://github.com/" target="blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://twitter.com/" target="blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
         </div>
         <p>
           Iceberg Gatsby is a PWA, save it for offline reading.
           <a href="#">See more PWA here</a>.
         </p>
         <p>
-          Maintained by <a href="#">@_diogorodrigues</a>. You can always contribute with the project on <a href="#">Github</a>.
+          Maintained by <a href="#">@_diogorodrigues</a>. You can always
+          contribute with the project on <a href="#">Github</a>.
         </p>
       </div>
     </footer>
