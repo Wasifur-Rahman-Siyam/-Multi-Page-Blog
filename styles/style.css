@@ -216,6 +216,127 @@ nav {
 }
 /* separate blog page main section ends  */
 
+/* Conact page main section starts  */
+
+.contact-details .title {
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+
+.from-container{
+    margin-top: 50px;
+
+}
+
+.from-group{
+    margin-top: 25px;
+    width: 100%;
+}
+
+.from-group label{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.from-input-field{
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    outline: none;
+    font-size: 16px;
+    border-radius: 3px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.from-textarea{
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    outline: none;
+    font-size: 16px;
+    border-radius: 3px;
+    resize: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+.from-submit-button{
+    font-size: 20px;
+    color: #fff;
+    background-color: #0066f9;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border:none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Conact page main section ends  */
+
+/* About page main section starts */
+
+.about-details .title {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.about-details h2 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #747d8d;
+  margin-bottom: 30px;
+}
+.about-details h3 {
+  margin: 30px 0px;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.about-details a{
+  text-decoration: none;
+  color: #0066f9;
+}
+
+.about-details table{
+  margin: 15px 0px;
+}
+.about-details table tr {
+  border-top: 1px solid rgb(204, 204, 204);
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.about-details table tr th{
+    font-weight: bold;
+}
+.about-details table tr th, td{
+    border: 1px solid rgb(204, 204, 204);
+    text-align: left;
+    padding: 6px 13px;
+}
+
+.about-details blockquote {
+  border-left: 4px solid rgb(221, 221, 221);
+  padding: 0px 15px;
+}
+
+
+.about-details blockquote p{
+  color: rgb(119, 119, 119);
+}
+
+.about-details iframe{
+  width: 100%;
+}
+
+.about-details hr {
+  margin: 24px 0px;
+  background-color: #eaeaea;
+}
 /* Footer section starts */
 
 footer {
